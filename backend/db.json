@@ -1,0 +1,221 @@
+{
+  "best-product": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Soto Medan",
+      "harga": 1600,
+      "is_ready": true,
+      "gambar": "soto.jpeg"
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Mie Pagaran",
+      "harga": 1300,
+      "is_ready": true,
+      "gambar": "mie.jpeg"
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Rendang Medan",
+      "harga": 1900,
+      "is_ready": true,
+      "gambar": "rendang.jpeg"
+    },
+    {
+      "id": 4,
+      "kode": "K-04",
+      "nama": "Sate Batak",
+      "harga": 1700,
+      "is_ready": true,
+      "gambar": "sate.jpeg"
+    },
+    {
+      "id": 5,
+      "kode": "K-05",
+      "nama": "Papeda",
+      "harga": 1400,
+      "is_ready": true,
+      "gambar": "papeda.jpeg"
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Soto Medan",
+      "harga": 1600,
+      "is_ready": true,
+      "gambar": "soto.jpeg"
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Mie Pagaran",
+      "harga": 1300,
+      "is_ready": true,
+      "gambar": "mie.jpeg"
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Rendang Medan",
+      "harga": 1900,
+      "is_ready": true,
+      "gambar": "rendang.jpeg"
+    },
+    {
+      "id": 4,
+      "kode": "K-04",
+      "nama": "Sate Batak",
+      "harga": 1700,
+      "is_ready": true,
+      "gambar": "sate.jpeg"
+    },
+    {
+      "id": 5,
+      "kode": "K-05",
+      "nama": "Papeda",
+      "harga": 1400,
+      "is_ready": true,
+      "gambar": "papeda.jpeg"
+    },
+    {
+      "id": 6,
+      "kode": "K-01",
+      "nama": "Boba Bobaan",
+      "harga": 1600,
+      "is_ready": true,
+      "gambar": "boba.jpeg"
+    },
+    {
+      "id": 7,
+      "kode": "K-02",
+      "nama": "Susu Putih",
+      "harga": 1600,
+      "is_ready": true,
+      "gambar": "susu.jpeg"
+    },
+    {
+      "id": 8,
+      "kode": "K-03",
+      "nama": "Kopi Hitam",
+      "harga": 1600,
+      "is_ready": true,
+      "gambar": "kopi.jpeg"
+    }
+  ],
+  "keranjang": [],
+  "pesanan": [
+    {
+      "nama": "Edward",
+      "noMeja": "7",
+      "keranjang": [
+        {
+          "jumlah_pemesanan": "1",
+          "products": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Boba Bobaan",
+            "harga": 1600,
+            "is_ready": true,
+            "gambar": "boba.jpeg"
+          },
+          "id": 1
+        },
+        {
+          "jumlah_pemesanan": "1",
+          "products": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "Susu Putih",
+            "harga": 1600,
+            "is_ready": true,
+            "gambar": "susu.jpeg"
+          },
+          "id": 2
+        }
+      ],
+      "id": 1
+    },
+    {
+      "nama": "Edward",
+      "noMeja": "9",
+      "keranjang": [
+        {
+          "jumlah_pemesanan": "2",
+          "products": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Soto Medan",
+            "harga": 1600,
+            "is_ready": true,
+            "gambar": "soto.jpeg"
+          },
+          "id": 1
+        },
+        {
+          "jumlah_pemesanan": "2",
+          "products": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Soto Medan",
+            "harga": 1600,
+            "is_ready": true,
+            "gambar": "soto.jpeg"
+          },
+          "id": 2
+        }
+      ],
+      "id": 2
+    },
+    {
+      "nama": "Edward",
+      "noMeja": "2",
+      "keranjang": [
+        {
+          "jumlah_pemesanan": "12",
+          "keterangan": "pedas",
+          "products": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Soto Medan",
+            "harga": 1600,
+            "is_ready": true,
+            "gambar": "soto.jpeg"
+          },
+          "id": 1
+        }
+      ],
+      "id": 3
+    },
+    {
+      "nama": "edward",
+      "noMeja": "3",
+      "keranjang": [
+        {
+          "jumlah_pemesanan": "5",
+          "keterangan": "pedas",
+          "products": {
+            "id": 4,
+            "kode": "K-04",
+            "nama": "Sate Batak",
+            "harga": 1700,
+            "is_ready": true,
+            "gambar": "sate.jpeg"
+          },
+          "id": 1
+        }
+      ],
+      "id": 4
+    },
+    {
+      "nama": "ed",
+      "noMeja": "ed",
+      "keranjang": [],
+      "id": 5
+    }
+  ]
+}
